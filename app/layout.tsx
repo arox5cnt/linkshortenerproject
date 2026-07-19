@@ -36,7 +36,7 @@ export default function RootLayout({
             <div className="mx-auto flex h-14 w-full max-w-6xl items-center justify-end px-4">
               <Show when="signed-out">
                 <SignInButton mode="modal" forceRedirectUrl="/dashboard">
-                  <Button variant="outline">Log in</Button>
+                  <Button variant="outline">Sign in</Button>
                 </SignInButton>
               </Show>
               <Show when="signed-in">
