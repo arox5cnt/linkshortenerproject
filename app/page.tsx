@@ -56,7 +56,7 @@ export default async function Home() {
         </h1>
         <p className="max-w-xl text-lg text-muted-foreground leading-relaxed">
           The simplest way to create short, memorable links and understand your
-          audience. Free to get started — no credit card needed.
+          audience. Free to get started.
         </p>
         <div className="flex gap-3">
           <SignUpButton mode="modal" forceRedirectUrl="/dashboard">
